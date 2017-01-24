@@ -1,0 +1,35 @@
+﻿Build started 1/24/2017 4:13:38 PM.
+     1>Project "C:\Users\John\Desktop\cs474-project3\cs474-project3\cs474-project3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\John\Desktop\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Creature.cpp Deer.cpp Eagle.cpp Grass.cpp Land.cpp Lion.cpp Rabbit.cpp Wolf.cpp
+         Land.cpp
+     1>c:\users\john\desktop\cs474-project3\cs474-project3\land.cpp(72): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Eagle.cpp
+     1>c:\users\john\desktop\cs474-project3\cs474-project3\eagle.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\john\desktop\cs474-project3\cs474-project3\eagle.cpp(220): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Deer.cpp
+     1>c:\users\john\desktop\cs474-project3\cs474-project3\deer.cpp(446): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Wolf.cpp
+         Rabbit.cpp
+         Lion.cpp
+         Grass.cpp
+         Creature.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\John\Desktop\cs474-project3\Debug\cs474-project3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\John\Desktop\SFML-2.3.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\John\Desktop\cs474-project3\Debug\cs474-project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\John\Desktop\cs474-project3\Debug\cs474-project3.lib" /MACHINE:X86 Debug\Creature.obj
+         Debug\Deer.obj
+         Debug\Eagle.obj
+         Debug\Grass.obj
+         Debug\Land.obj
+         Debug\Lion.obj
+         Debug\Main.obj
+         Debug\Rabbit.obj
+         Debug\SquareYard.obj
+         Debug\Wolf.obj
+         cs474-project3.vcxproj -> C:\Users\John\Desktop\cs474-project3\Debug\cs474-project3.exe
+     1>Done Building Project "C:\Users\John\Desktop\cs474-project3\cs474-project3\cs474-project3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.01
