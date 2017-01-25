@@ -1,7 +1,7 @@
 //
 //  Land.cpp
 //	Programmer: Jonathan Galvan
-//	Copyright © 2016 UIC. All rights reserved.
+//	Copyright Â© 2016 UIC. All rights reserved.
 //
 
 #include "Land.h"
@@ -86,18 +86,12 @@ Land::Land(int horizontalSquares, int VerticalSquares, sf::RenderWindow &w, int 
 	int numberEagles = 0;
 
 	int numberLions = 0;
-
-	// Actual Case < 20. 
 	
-	// Right now testing 5 rabbits. At the moment Creates 0 bunnies 
+	// Create and insert 15 bunnies
 	while (numberRabbits < 15) {
 
 		randomX = rand() % 40;
 		randomY = rand() % 30;
-	
-		// Test Rabbit evade
-		//randomX = 6;
-		//randomY = 5;
 		
 		// Check to see if the available spot is NUll. Insert Rabbit
 		if (Yard[randomX][randomY].animal == NULL) {
@@ -116,8 +110,7 @@ Land::Land(int horizontalSquares, int VerticalSquares, sf::RenderWindow &w, int 
 		numberRabbits++;
 	}
 
-	// Inserts Deers
-
+	// Create and insert five deers
 	while (numberDeers < 5) {
 
 		randomX = rand() % 40;
@@ -140,8 +133,7 @@ Land::Land(int horizontalSquares, int VerticalSquares, sf::RenderWindow &w, int 
 	}
 
 
-	//Insert Wolf
-
+	// Create and insert three wolfs
 	while(numberWolfs < 3) {
 
 		randomX = rand() % 40;
@@ -165,7 +157,7 @@ Land::Land(int horizontalSquares, int VerticalSquares, sf::RenderWindow &w, int 
 		
 	}
 	
-
+	// Create and insert one eagle
 	while (numberEagles < 1) {
 
 		randomX = rand() % 40;
@@ -190,6 +182,7 @@ Land::Land(int horizontalSquares, int VerticalSquares, sf::RenderWindow &w, int 
 
 	}
 
+	// Create and insert one lion
 	while (numberLions < 1) {
 
 		randomX = rand() % 40;
