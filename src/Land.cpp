@@ -49,9 +49,8 @@ Land::Land(int horizontalSquares, int VerticalSquares, sf::RenderWindow &w, int 
 	}
 
 
-	// Initialize all the Creature objects here with rand (POSSIBLY)
+	// Initialize all the Creature objects here with rand
 
-	
 	//Setup the default state.
 	for (int j = 0; j<Y; j++) {
 		xOffset = 0;
